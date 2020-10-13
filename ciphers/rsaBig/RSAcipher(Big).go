@@ -9,7 +9,7 @@ import (
 
 /*
 Care has been taken to uses cryptographic secure functions
-The primes numbers are 1024 bits which is as secure as u can get really
+The primes numbers are 1024 bits which is the minimum suggested prime key size for RSA
 crypto/rand library has been imported as crypto and not rand
 This import style will make it easier to spot all the cryptographic secure functions
 */
